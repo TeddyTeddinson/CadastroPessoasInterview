@@ -1,0 +1,83 @@
+/*Tags*/
+body {
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    background-color: #4076ce;
+    padding: 20px;
+}
+
+/*IDs*/
+#pessoas > li ul li {
+    background-color: #b4bbc6;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 10px solid #FFF;
+}
+
+#pessoa-registro .editar {
+    display: none;
+}
+
+#pessoa-registro.editar .editar {
+    display: initial;
+}
+
+#pessoa-registro.editar .nao-editar {
+    display: none;
+}
+
+/*Classes*/
+.botoes {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.botoes img {
+    width: 30px;
+    padding: 2px;
+}
+
+.container {
+    margin: 0 auto;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.coluna {
+    float: left;
+}
+
+.col1 {
+    width: 20%;
+    text-align: right;
+    padding-left: 5px;
+}
+
+.col2 {
+    width: 20%;
+    padding-left: 5px;
+}
+
+.col3 {
+    float: right;
+    width: 50%;
+}
+
+.col1,
+.col2 {
+    padding-top: 20px;
+}
+
+.col1 li,
+.col2 li {
+    height: 25px;
+}
+
+.label {
+    font-weight: bold;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Pessoas</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="img/person.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <h1>Cadastro de Pessoas</h1>
+        <div class="coluna col1">
+            <ul>
+                <li><span class="label">Nome: </span></li>
+                <li><span class="label">Sexo: </span></li>
+                <li><span class="label">E-mail: </span></li>
+                <li><span class="label">Data de Nascimento: </span></li>
+                <li><span class="label">Naturalidade: </span></li>
+                <li><span class="label">Nacionalidade: </span></li>
+                <li><span class="label">CPF: </span></li>
+            </ul>
+        </div>
+        <div class="coluna col2">
+            <ul>
+                <li><input id="nome" type="text" name="nome"></li>
+                <li><select id ="sexo" name="sexo">
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select></li>
+                <li><input id="enderecoemail" type="email" name="enderecoemail"></li>
+                <li><input id="nascimento" type="date" name="nascimento"></li>
+                <li><input id="naturalidade" type="text" name="naturalidade"></li>
+                <li><input id="nacionalidade" type="text" name="nacionalidade"></li>
+                <li><input id="cpf" type="text" name="cpf"></li>
+            </ul>
+            <div>
+                <span id="pesquisa" class="botoes"><img src="img/search.png"></span>
+                <span id="adiciona-pessoa" class="botoes"><img src="img/add.png"></span>
+            </div>
+        </div>
+        <div class="coluna col3">
+            <ul id="pessoas"></ul>
+        </div>
+    </body>
+</html>
